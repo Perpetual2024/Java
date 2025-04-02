@@ -12,8 +12,9 @@ public class User {
         int age = scanner.nextInt(); // read an int
 
         System.out.println("Hello, " + name + "! you are " + age + " years old.");
-        scanner.close();
+        scanner.close();// close scanner
     }
+    // so basicly scanner is like a command line interface feature, you just have to impot it java.util.Scanner then u initialise Scanner scanner = new Scanner(System.in)just have to know how the variables are out
 
 
     
