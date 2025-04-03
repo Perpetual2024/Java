@@ -20,7 +20,7 @@ public class Assignments {
         } else {
             System.out.println("Error: Division by zero is not allowed!");
         }
-        scanner.close();*/
+        scanner.close();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your number: ");
         int number = scanner.nextInt();
@@ -30,7 +30,26 @@ public class Assignments {
         }else {
             System.out.println("The number is odd");
         }
-        scanner.close();
+        scanner.close();*/
+
+    Scanner scanner = new Scanner(System.in) ; 
+    
+    int[][] matrix = new int[2][3];
+    System.out.println("Enter nine number for the 3x3 matrix");
+    for (int i=0; i<2; i++){
+        for(int j=0; j<3; j++){
+            matrix[i][j] = scanner.nextInt();
+        }
+    }
+    System.out.println("\nThe 3x3 Matrix is:");
+    for (int i=0; i<2; i++){
+        for(int j=0; j<3; j++){
+            System.out.print(matrix[i][j] + " ");
+        }
+        System.out.println();
+    }
+    scanner.close();
+
 
     }
     
