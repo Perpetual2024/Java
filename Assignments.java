@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Assignments {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+       /* Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first number:");
         int num = scanner.nextInt();
         System.out.println("Enter the second number:");
@@ -20,7 +20,18 @@ public class Assignments {
         } else {
             System.out.println("Error: Division by zero is not allowed!");
         }
+        scanner.close();*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your number: ");
+        int number = scanner.nextInt();
+
+        if (number % 2 == 0) {
+            System.out.println("The number is even");
+        }else {
+            System.out.println("The number is odd");
+        }
         scanner.close();
+
     }
     
 }
